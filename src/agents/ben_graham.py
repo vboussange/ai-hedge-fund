@@ -12,6 +12,7 @@ import math
 
 
 class BenGrahamSignal(BaseModel):
+    # TODO: improve
     signal: Literal["bullish", "bearish", "neutral"]
     confidence: float
     reasoning: str
